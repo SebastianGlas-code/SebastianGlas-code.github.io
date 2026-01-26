@@ -18,6 +18,18 @@ const gifts = [
     link: ""
   },
   {
+    name: "Tetera",
+    category: "Cocina",
+    note: "",
+    link: "https://articulo.mercadolibre.com.ar/MLA-913730485-tetera-pava-de-porcelana-con-filtro-infusor-disenos-_JM?searchVariation=184517282211#polycard_client=wishlist"
+  },
+  {
+    name: "Ollas",
+    category: "Cocina",
+    note: "",
+    link: ""
+  },
+  {
     name: "Televisor",
     category: "Living",
     note: "",
@@ -70,36 +82,6 @@ const gifts = [
     link: "https://articulo.mercadolibre.com.ar/MLA-835768276-tapizado-de-lona-cruda-para-sillon-bkf-marca-calma-chicha-_JM#polycard_client=wishlist"
   },
   {
-    name: "Cubre cama verano",
-    category: "Habitacion",
-    note: "Queen size, verde musgo o gris",
-    link: "https://articulo.mercadolibre.com.ar/MLA-1576893965-cubrecama-de-verano-queen-con-fundas-bordado-mantra-_JM?searchVariation=192734071871#polycard_client=wishlist"
-  },  
-  {
-    name: "Cubre cama verano 2",
-    category: "Habitacion",
-    note: "Queen size, salvia, vison, tostado",
-    link: "https://www.mercadolibre.com.ar/cubrecama-queen-size-verano-bitono-micromatelaseado-235x240-color-look-salvia-lisa/p/MLA43432445?pdp_filters=item_id%3AMLA2414120690#polycard_client=wishlist&wid=MLA2414120690&sid=bookmarks"
-  },
-  {
-    name: "Sabanas",
-    category: "Habitacion",
-    note: "Queen size",
-    link: ""
-  },
-  {
-    name: "Tetera",
-    category: "Cocina",
-    note: "",
-    link: "https://articulo.mercadolibre.com.ar/MLA-913730485-tetera-pava-de-porcelana-con-filtro-infusor-disenos-_JM?searchVariation=184517282211#polycard_client=wishlist"
-  },
-  {
-    name: "Ollas",
-    category: "Cocina",
-    note: "",
-    link: ""
-  },
-  {
     name: "Plantas aromaticas",
     category: "Exterior",
     note: "",
@@ -115,6 +97,24 @@ const gifts = [
     name: "Sombrilla Playera",
     category: "Exterior",
     note: "",
+    link: ""
+  },
+  {
+    name: "Cubre cama verano",
+    category: "Habitacion",
+    note: "Queen size, verde musgo o gris",
+    link: "https://articulo.mercadolibre.com.ar/MLA-1576893965-cubrecama-de-verano-queen-con-fundas-bordado-mantra-_JM?searchVariation=192734071871#polycard_client=wishlist"
+  },  
+  {
+    name: "Cubre cama verano 2",
+    category: "Habitacion",
+    note: "Queen size, salvia, vison, tostado",
+    link: "https://www.mercadolibre.com.ar/cubrecama-queen-size-verano-bitono-micromatelaseado-235x240-color-look-salvia-lisa/p/MLA43432445?pdp_filters=item_id%3AMLA2414120690#polycard_client=wishlist&wid=MLA2414120690&sid=bookmarks"
+  },
+  {
+    name: "Sabanas",
+    category: "Habitacion",
+    note: "Queen size",
     link: ""
   }
 ];
