@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Lista de Regalos</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f4f4;
-            color: #333;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Regalos</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hola mundo 🎁</h1>
+  <header class="header">
+    <div class="container">
+      <h1>Lista de Regalos 🎁</h1>
+      <p class="subtitle">Elegí un regalo (con link) o usalo como guía (a elección).</p>
+
+      <div class="controls">
+        <input id="search" class="input" type="search" placeholder="Buscar regalo..." />
+        <select id="category" class="select">
+          <option value="all">Todas las categorías</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="grid" class="grid"></section>
+    <footer class="footer">
+      <p>Gracias por acompañarnos ❤️</p>
+    </footer>
+  </main>
+
+  <script src="gifts.js"></script>
 </body>
 </html>
