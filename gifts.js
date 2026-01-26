@@ -1,22 +1,116 @@
 const gifts = [
   {
-    name: "Cafetera",
+    name: "Licuadora",
     category: "Cocina",
-    note: "Modelo a elección (espresso o filtro).",
-    link: "" // sin link => aparece como “A elección”
-  },
-  {
-    name: "Juego de vasos",
-    category: "Hogar",
-    note: "Preferencia vidrio, cantidad a elección.",
+    note: "https://www.mercadolibre.com.ar/licuadora-oster-classic-blst4655-125-l-700w-con-jarra-de-vidrio/p/MLA17734241?pdp_filters=item_id%3AMLA2087405052#polycard_client=wishlist&wid=MLA2087405052&sid=bookmarks",
     link: ""
   },
   {
-    name: "Aspiradora",
-    category: "Hogar",
-    note: "Con o sin cable, a elección.",
-    link: "https://www.mercadolibre.com.ar/" // poné tu link real
-  }
+    name: "Batidora",
+    category: "Cocina",
+    note: "",
+    link: "https://www.mercadolibre.com.ar/batidora-de-mano-oster-2600-color-negro-frecuencia-50-hz/p/MLA9257704?pdp_filters=item_id%3AMLA906302912#polycard_client=wishlist&wid=MLA906302912&sid=bookmarks"
+  },
+  {
+    name: "Microondas",
+    category: "Cocina",
+    note: "",
+    link: ""
+  },
+  {
+    name: "Televisor",
+    category: "Living",
+    note: "",
+    link: ""
+  },
+  {
+    name: "Conservadora chica",
+    category: "Exterior",
+    note: "",
+    link: ""
+  },
+  {
+    name: "Lona para parque / playa",
+    category: "Exterior",
+    note: "",
+    link: ""
+  },
+  {
+    name: "Mesita plegable patio",
+    category: "Exterior",
+    note: "",
+    link: ""
+  },
+  {
+    name: "Sillones camping",
+    category: "Exterior",
+    note: "",
+    link: "https://www.mercadolibre.com.ar/silla-sillon-camping-playa-x-2-plegable-director-reforzado-color-gris/p/MLA35402894?pdp_filters=item_id%3AMLA1820710714#polycard_client=wishlist&wid=MLA1820710714&sid=bookmarks"
+  },  {
+    name: "Sillones camping 2",
+    category: "Exterior",
+    note: "",
+    link: "https://www.mercadolibre.com.ar/sillon-director-plegable-camping-funda-porta-vaso-color-gris/p/MLA55866370?pdp_filters=item_id%3AMLA2363105494#polycard_client=wishlist&wid=MLA2363105494&sid=bookmarks"
+  },
+  {
+    name: "Sillones playa",
+    category: "Exterior",
+    note: "",
+    link: "https://www.mercadolibre.com.ar/sillon-bajo-playero-reposera-camping-playa-apoya-brazo-color-crema/p/MLA52892540?pdp_filters=item_id%3AMLA2186725032#polycard_client=wishlist&wid=MLA2186725032&sid=bookmarks"
+  },  {
+    name: "Reposera",
+    category: "Exterior",
+    note: "",
+    link: "https://www.mercadolibre.com.ar/reposera-silla-alta-exahome-aluminio-playa-camping-plegable-blanco-ultra-liviana/p/MLA39952900?pdp_filters=item_id%3AMLA1896416688#polycard_client=wishlist&wid=MLA1896416688&sid=bookmarks"
+  },
+  {
+    name: "Fundas sillon bkf",
+    category: "Exterior",
+    note: "",
+    link: "https://articulo.mercadolibre.com.ar/MLA-835768276-tapizado-de-lona-cruda-para-sillon-bkf-marca-calma-chicha-_JM#polycard_client=wishlist"
+  },
+  {
+    name: "Cubre cama verano",
+    category: "Habitacion",
+    note: "Queen size",
+    link: "https://articulo.mercadolibre.com.ar/MLA-1576893965-cubrecama-de-verano-queen-con-fundas-bordado-mantra-_JM?searchVariation=192734071871#polycard_client=wishlist"
+  },  
+  {
+    name: "Cubre cama verano 2",
+    category: "Habitacion",
+    note: "Queen size",
+    link: "https://articulo.mercadolibre.com.ar/MLA-1576893965-cubrecama-de-verano-queen-con-fundas-bordado-mantra-_JM?searchVariation=192734071871#polycard_client=wishlist"
+  },
+  {
+    name: "Sabanas",
+    category: "Habitacion",
+    note: "Queen size",
+    link: ""
+  },
+  {
+    name: "Tetera",
+    category: "Cocina",
+    note: "",
+    link: "https://articulo.mercadolibre.com.ar/MLA-913730485-tetera-pava-de-porcelana-con-filtro-infusor-disenos-_JM?searchVariation=184517282211#polycard_client=wishlist"
+  },
+  {
+    name: "Ollas",
+    category: "Cocina",
+    note: "",
+    link: ""
+  },
+  {
+    name: "Plantas aromaticas",
+    category: "Exterior",
+    note: "",
+    link: ""
+  },
+  {
+    name: "Sombrilla",
+    category: "",
+    note: "",
+    link: ""
+  },
 ];
 
 const grid = document.getElementById("grid");
