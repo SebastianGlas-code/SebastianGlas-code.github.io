@@ -96,24 +96,74 @@ h1{ margin:0; font-size: clamp(28px, 3vw, 40px); letter-spacing: .2px; }
   gap: 10px;
   margin-top: 4px;
 }
+/* Botón base: mismo tamaño para <a>, <button> y <span> */
 .btn{
   display:inline-flex;
   align-items:center;
   justify-content:center;
+  gap: 8px;
+
   padding: 10px 12px;
+  min-height: 40px;            /* <- clave: altura consistente */
   border-radius: 14px;
+
   border: 1px solid var(--border);
   text-decoration:none;
+
+  font-size: 14px;             /* <- clave: misma letra */
+  font-weight: 600;
+  line-height: 1;              /* <- clave: misma altura de texto */
+  letter-spacing: .1px;
+
   color: var(--text);
   background: rgba(255,255,255,.06);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
 }
-.btn:hover{ background: rgba(255,255,255,.10); }
 
-.btn.primary{
-  background: rgba(123,97,255,.22);
-  border-color: rgba(123,97,255,.35);
+.btn:hover{ background: rgba(255,255,255,.10); }
+.btn:disabled{ opacity: .6; cursor: not-allowed; }
+
+/* “A elección” */
+.btn-neutral{
+  background: rgba(255,255,255,.04);
+  color: var(--muted);
 }
-.btn.primary:hover{ background: rgba(123,97,255,.30); }
+
+/* Mercado Libre */
+.btn-ml-soft{
+  background: rgba(0, 92, 184, 0.05);
+  border: 1px solid rgba(0, 92, 184, 0.35);
+  color: var(--text);
+}
+
+.btn-ml-soft:hover{
+  background: rgba(0, 92, 184, 0.08);
+  border-color: rgba(0, 92, 184, 0.55);
+}
+
+/* Icono ML */
+.ml-icon{
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Botón cuando el regalo ya está comprado */
+.btn-bought{
+  background: rgba(0, 180, 90, 0.08);          /* verde muy suave */
+  border: 1px solid rgba(0, 180, 90, 0.45);
+  color: #c9f7df;
+}
+
+.btn-bought:hover{
+  background: rgba(0, 180, 90, 0.14);
+  border-color: rgba(0, 180, 90, 0.65);
+}
+
+
 
 .footer{
   border-top: 1px solid var(--border);

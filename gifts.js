@@ -224,13 +224,20 @@ function cardHTML(g) {
 
       <div class="actions">
         ${hasLink
-          ? `<a class="btn primary" href="${g.link}" target="_blank" rel="noopener">Ver en Mercado Libre</a>`
-          : `<span class="btn" title="Sin link">A elección</span>`
+          ? `<a class="btn btn-ml-soft" href="${g.link}" target="_blank" rel="noopener">
+            <img src="assets/ml.png" alt="ML" class="ml-icon">
+            Mercado Libre
+            </a>`
+          : `<span class="btn btn-neutral" title="Sin link">A elección</span>`
         }
 
-        <button class="btn ${bought ? "" : "primary"}" data-buy="${escapeHtml(String(g.id))}">
-          ${bought ? `Comprado ✅${byText}` : "Marcar como comprado"}
+
+        <button 
+          class="btn ${bought ? "btn-bought" : "primary"}" 
+          data-buy="${escapeHtml(String(g.id))}">
+          ${bought ? "Comprado ✅" : "Marcar como comprado"}
         </button>
+        
       </div>
     </article>
   `;
