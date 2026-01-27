@@ -174,6 +174,15 @@ async function toggleBought(id) {
   const st = statusMap.get(id) || { bought: false };
   const nextBought = !st.bought;
 
+  // Mensaje distinto según el estado
+  const msg = nextBought
+    ? "¿Confirmás este regalo?\n\nUna vez marcado, todos lo verán como comprado."
+    : "¿Querés desmarcar este regalo como comprado?";
+
+  if (!confirm(msg)) {
+    return; // el usuario canceló
+  }
+
   await setDoc(
     doc(db, "gifts", String(id)),
     {
@@ -183,6 +192,7 @@ async function toggleBought(id) {
     { merge: true }
   );
 }
+
 
 
 /* =========================
