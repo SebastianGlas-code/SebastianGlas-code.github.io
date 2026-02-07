@@ -117,6 +117,13 @@ const gifts = [
     link: "https://www.mercadolibre.com.ar/sombrilla-jardin-grande-lateral-3m-reforzada-color-taupe-liso/p/MLA58175144#polycard_client=recommendations_home_navigation-recommendations&reco_backend=machinalis-homes-univb-equivalent-offer&wid=MLA2400120902&reco_client=home_navigation-recommendations&reco_item_pos=1&reco_backend_type=function&reco_id=545c92a7-9473-428f-98b2-41ef7ad72f52&sid=recos&c_id=/home/navigation-recommendations/element&c_uid=bfb53f6f-0207-4cd2-a9c1-6246dd6d6940"
   },
   {
+    id: "17",
+    name: "Sombrilla Playera",
+    category: "Exterior",
+    note: "",
+    link: ""
+  },
+  {
     id: "18",
     name: "Cubre cama verano",
     category: "Habitacion",
