@@ -75,13 +75,6 @@ const gifts = [
     link: ""
   },
   {
-    id: "10",
-    name: "Sillones camping",
-    category: "Exterior",
-    note: "",
-    link: "https://www.mercadolibre.com.ar/silla-sillon-camping-playa-x-2-plegable-director-reforzado-color-gris/p/MLA35402894?pdp_filters=item_id%3AMLA1820710714#polycard_client=wishlist&wid=MLA1820710714&sid=bookmarks"
-  },  
-  {
     id: "11",
     name: "Sillones camping 2",
     category: "Exterior",
@@ -124,26 +117,12 @@ const gifts = [
     link: "https://www.mercadolibre.com.ar/sombrilla-jardin-grande-lateral-3m-reforzada-color-taupe-liso/p/MLA58175144#polycard_client=recommendations_home_navigation-recommendations&reco_backend=machinalis-homes-univb-equivalent-offer&wid=MLA2400120902&reco_client=home_navigation-recommendations&reco_item_pos=1&reco_backend_type=function&reco_id=545c92a7-9473-428f-98b2-41ef7ad72f52&sid=recos&c_id=/home/navigation-recommendations/element&c_uid=bfb53f6f-0207-4cd2-a9c1-6246dd6d6940"
   },
   {
-    id: "17",
-    name: "Sombrilla Playera",
-    category: "Exterior",
-    note: "",
-    link: ""
-  },
-  {
     id: "18",
     name: "Cubre cama verano",
     category: "Habitacion",
     note: "Queen size, verde musgo o gris",
     link: "https://articulo.mercadolibre.com.ar/MLA-1576893965-cubrecama-de-verano-queen-con-fundas-bordado-mantra-_JM?searchVariation=192734071871#polycard_client=wishlist"
   },  
-  {
-    id: "19",
-    name: "Cubre cama verano 2",
-    category: "Habitacion",
-    note: "Queen size, salvia, vison, tostado",
-    link: "https://www.mercadolibre.com.ar/cubrecama-queen-size-verano-bitono-micromatelaseado-235x240-color-look-salvia-lisa/p/MLA43432445?pdp_filters=item_id%3AMLA2414120690#polycard_client=wishlist&wid=MLA2414120690&sid=bookmarks"
-  },
   {
     id: "20",
     name: "Sabanas",
